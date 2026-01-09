@@ -15,6 +15,7 @@ body{
     border: 2px solid #30B868;
 }
 .btn{
+    cursor: pointer;
     background-color: #30B868;
     color: white;
     padding: 12px 16px;
@@ -127,6 +128,7 @@ nav ul a{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .banner-content .btn-white:hover{
     background-color: #2f8f5b;
