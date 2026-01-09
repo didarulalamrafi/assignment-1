@@ -17,6 +17,10 @@ body{
     font-weight: bold;
     border: none;
 }
+.container{
+    max-width: 1360px;
+    margin: 0px auto;
+}
 
 /* Nav strat */
 nav{
@@ -91,4 +95,116 @@ nav ul a{
     background: none;
     border: 1px solid white;
     margin-left: 16px;
+}
+
+/* Node section */
+#node{
+    margin-bottom: 120px;
+}
+
+.node-heading{
+    text-align: center;
+    margin-bottom: 44px;
+}
+.node-heading h2{
+    margin-top: 50px;
+    font-size: 48px;
+    color: #001931;
+    font-weight: bold;
+}
+.node-heading p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+
+.node-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.card{
+    padding: 24px;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 #00000006;
+    max-width: 322px;
+    max-height: 300px;
+    border: 2px solid red;
+}
+.card .icon{
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+}
+.icon img{
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    align-items: center;
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #627382;
+}
+
+/* brain section */
+#brain{
+    margin-bottom: 120px;
+}
+.brain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.brain .brain-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #30B868;
+    line-height: 20px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.brain-info h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.brain-info p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.brain-info ul{
+    list-style: none;
+}
+.brain-info ul li{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+.brain-info ul li img{
+    height: 20px;
+    width: 20px;
+    margin-right: 6px;
+    /* line-height: 20px; */
+    /* margin-bottom: 16px; */
+    align-items: center;
 }
