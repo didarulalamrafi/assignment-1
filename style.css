@@ -67,7 +67,6 @@ nav ul a{
     /* left: 200px; */
 }
 .dot{
-    margin-right: 8px;
     width: 16px;
     height: 16px;
     border-radius: 8px;
@@ -78,6 +77,7 @@ nav ul a{
     font-size: 16px;
     font-weight: bold;
     display: flex;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -161,7 +161,7 @@ nav ul a{
     box-shadow: 0 0 8px 0 #00000006;
     max-width: 322px;
     height: 300px;
-    border: 2px solid red;
+    box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.06);
 }
 .card .card-icon{
     display: flex;
