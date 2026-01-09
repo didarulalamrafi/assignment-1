@@ -16,6 +16,9 @@ body{
     border-radius: 4px;
     font-weight: bold;
     border: none;
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
 }
 .container{
     max-width: 1360px;
@@ -62,16 +65,24 @@ nav ul a{
     /* top: 150px; */
     /* left: 200px; */
 }
+/* .now-open{
+    display: flex;
+    align-items: center;
+} */
+
 .circle{
+    text-align: center;
     width: 16px;
     height: 16px;
     border-radius: 8px;
     color: #30B868;
 }
 .now-open{
+    padding: 10px;
+    text-align: center;
     width: 244px;
-    height: 84px;
-    border-radius: 50%;
+    height: 44px;
+    border-radius: 50px;
     background-color: white;
     color: #30B868;
 }
@@ -194,6 +205,8 @@ nav ul a{
     list-style: none;
 }
 .brain-info ul li{
+    display: flex;
+    align-items: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
@@ -207,4 +220,31 @@ nav ul a{
     /* line-height: 20px; */
     /* margin-bottom: 16px; */
     align-items: center;
+}
+/* Get Early Access Section */
+
+.early-access{
+    background-color: #F7F6F2;
+    text-align: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-bottom: 120px;
+    padding: 80px 40px;
+}
+.title{
+    width: 1280px;
+}
+.early-access h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.early-access p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.early-access-btn p{
+    margin-top: 16px;
 }
