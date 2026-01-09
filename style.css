@@ -9,6 +9,11 @@ body{
 }
 
 /* Common Class */
+.btn:hover{
+    background: none ;
+    color: #30B868;
+    border: 2px solid #30B868;
+}
 .btn{
     background-color: #30B868;
     color: white;
@@ -22,6 +27,7 @@ body{
     gap: 10px;
 }
 .container{
+    /* width: 85%; */
     max-width: 1360px;
     margin: 0px auto;
 }
@@ -121,6 +127,11 @@ nav ul a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.banner-content .btn-white:hover{
+    background-color: #2f8f5b;
+    color: white;
+    border: none;
 }
 
 /* Node section */
